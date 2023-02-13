@@ -1,0 +1,835 @@
+[2023-02-12 22:20:56,514] root INFO #######################################################################
+[2023-02-12 22:20:56,515] root INFO #                                                                     #
+[2023-02-12 22:20:56,515] root INFO #     Begin execution of C:\Users\stefa\mpe2_test\robot_method.py     #
+[2023-02-12 22:20:56,515] root INFO #                                                                     #
+[2023-02-12 22:20:56,515] root INFO #######################################################################
+[2023-02-12 22:20:56,515] pyhamilton.interface INFO starting a Hamilton interface
+[2023-02-12 22:20:56,515] pyhamilton.interface INFO started the oem application for simulation
+[2023-02-12 22:20:56,516] pyhamilton.interface INFO started the server thread
+[2023-02-12 22:20:56,516] root INFO initialize: synchronously initialize the robot
+[2023-02-12 22:21:12,529] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:21:12,531] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:21:12,531] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:21:12,531] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:21:12,531] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:21:12,531] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:21:12,531] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:21:12,531] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:21:14,537] pyhamilton.interface INFO sending end run command to simulator
+[2023-02-12 22:21:16,038] pyhamilton.interface ERROR HamiltonTimeoutError('Timed out after 1.5 sec while waiting for response id 0x0')
+[2023-02-12 22:21:16,038] pyhamilton.interface INFO disconnected from server
+[2023-02-12 22:21:16,139] pyhamilton.interface INFO server did not exit yet, sending dummy request to exit its loop
+[2023-02-12 22:21:16,139] urllib3.util.retry DEBUG Converted retries value: 20 -> Retry(total=20, connect=None, read=None, redirect=None, status=None)
+[2023-02-12 22:21:16,173] urllib3.connectionpool DEBUG Starting new HTTP connection (1): 127.0.0.1:3221
+[2023-02-12 22:22:31,676] root INFO #######################################################################
+[2023-02-12 22:22:31,676] root INFO #                                                                     #
+[2023-02-12 22:22:31,676] root INFO #     Begin execution of C:\Users\stefa\mpe2_test\robot_method.py     #
+[2023-02-12 22:22:31,676] root INFO #                                                                     #
+[2023-02-12 22:22:31,676] root INFO #######################################################################
+[2023-02-12 22:22:31,677] pyhamilton.interface INFO starting a Hamilton interface
+[2023-02-12 22:22:31,705] pyhamilton.interface INFO started the oem application for simulation
+[2023-02-12 22:22:31,705] pyhamilton.interface INFO started the server thread
+[2023-02-12 22:22:31,705] root INFO initialize: synchronously initialize the robot
+[2023-02-12 22:22:46,712] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:22:46,712] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:22:46,712] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:22:46,712] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:22:46,712] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:22:46,712] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:22:46,712] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:22:46,712] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:22:47,716] pyhamilton.interface INFO sending end run command to simulator
+[2023-02-12 22:22:49,217] pyhamilton.interface ERROR HamiltonTimeoutError('Timed out after 1.5 sec while waiting for response id 0x0')
+[2023-02-12 22:22:49,217] pyhamilton.interface INFO disconnected from server
+[2023-02-12 22:22:49,317] pyhamilton.interface INFO server did not exit yet, sending dummy request to exit its loop
+[2023-02-12 22:22:49,318] urllib3.util.retry DEBUG Converted retries value: 20 -> Retry(total=20, connect=None, read=None, redirect=None, status=None)
+[2023-02-12 22:22:49,319] urllib3.connectionpool DEBUG Starting new HTTP connection (1): 127.0.0.1:3221
+[2023-02-12 22:22:49,319] urllib3.connectionpool DEBUG http://127.0.0.1:3221 "GET / HTTP/1.1" 200 None
+[2023-02-12 22:22:49,319] pyhamilton.interface INFO dummy get request sent to server
+[2023-02-12 22:22:49,319] pyhamilton.interface INFO server thread exited
+[2023-02-12 22:22:49,319] root ERROR Traceback (most recent call last):
+[2023-02-12 22:22:49,319] root ERROR   File "C:\Users\stefa\mpe2_test\robot_method.py", line 25, in <module>
+[2023-02-12 22:22:49,319] root ERROR res = mpe2_connect_ip(ham_int, 'a', '1', simulation_mode = True, options = 0)
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR   File "c:\users\stefa\pyhamilton\pyhamilton\mpe_wrappers.py", line 28, in mpe2_connect_ip
+[2023-02-12 22:22:49,319] root ERROR response = ham.wait_on_response(cmd, raise_first_exception=True, return_data=return_field)
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,319] root ERROR ^
+[2023-02-12 22:22:49,329] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,330] root ERROR ^
+[2023-02-12 22:22:49,332] root ERROR ^
+[2023-02-12 22:22:49,332] root ERROR ^
+[2023-02-12 22:22:49,332] root ERROR ^
+[2023-02-12 22:22:49,332] root ERROR ^
+[2023-02-12 22:22:49,332] root ERROR ^
+[2023-02-12 22:22:49,332] root ERROR ^
+[2023-02-12 22:22:49,332] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR   File "c:\users\stefa\pyhamilton\pyhamilton\interface.py", line 657, in wait_on_response
+[2023-02-12 22:22:49,333] root ERROR return self.parse_response(server_response, raise_first_exception, return_data)
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,333] root ERROR ^
+[2023-02-12 22:22:49,337] root ERROR   File "c:\users\stefa\pyhamilton\pyhamilton\interface.py", line 676, in parse_response
+[2023-02-12 22:22:49,337] root ERROR hamiltonResponse.raise_first_exception()
+[2023-02-12 22:22:49,337] root ERROR   File "c:\users\stefa\pyhamilton\pyhamilton\interface.py", line 400, in raise_first_exception
+[2023-02-12 22:22:49,338] root ERROR raise HamiltonStepError('Hamilton step did not execute correctly; no error code given. ( response: ' + self.raw + ' )')
+[2023-02-12 22:22:49,338] root ERROR pyhamilton.oemerr
+[2023-02-12 22:22:49,339] root ERROR .
+[2023-02-12 22:22:49,339] root ERROR HamiltonStepError
+[2023-02-12 22:22:49,339] root ERROR : 
+[2023-02-12 22:22:49,339] root ERROR Hamilton step did not execute correctly; no error code given. ( response: {"command":"STAR-return","step-name":"MPE2_ConnectIP","step-return2":"","step-return3":"","step-return4":"","id":"0x126cd0ac2d03"} )
+[2023-02-12 22:23:57,680] root INFO #######################################################################
+[2023-02-12 22:23:57,680] root INFO #                                                                     #
+[2023-02-12 22:23:57,680] root INFO #     Begin execution of C:\Users\stefa\mpe2_test\robot_method.py     #
+[2023-02-12 22:23:57,680] root INFO #                                                                     #
+[2023-02-12 22:23:57,680] root INFO #######################################################################
+[2023-02-12 22:23:57,681] pyhamilton.interface INFO starting a Hamilton interface
+[2023-02-12 22:23:57,681] pyhamilton.interface INFO started the oem application for simulation
+[2023-02-12 22:23:57,681] pyhamilton.interface INFO started the server thread
+[2023-02-12 22:23:57,681] root INFO initialize: synchronously initialize the robot
+[2023-02-12 22:24:08,686] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:24:08,687] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:24:08,687] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:24:08,687] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:24:08,687] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:24:08,687] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:24:08,687] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:24:08,687] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:24:09,692] pyhamilton.interface INFO sending end run command to simulator
+[2023-02-12 22:24:11,193] pyhamilton.interface ERROR HamiltonTimeoutError('Timed out after 1.5 sec while waiting for response id 0x0')
+[2023-02-12 22:24:11,193] pyhamilton.interface INFO disconnected from server
+[2023-02-12 22:24:11,294] pyhamilton.interface INFO server did not exit yet, sending dummy request to exit its loop
+[2023-02-12 22:24:11,294] urllib3.util.retry DEBUG Converted retries value: 20 -> Retry(total=20, connect=None, read=None, redirect=None, status=None)
+[2023-02-12 22:24:11,295] urllib3.connectionpool DEBUG Starting new HTTP connection (1): 127.0.0.1:3221
+[2023-02-12 22:24:11,299] urllib3.connectionpool DEBUG http://127.0.0.1:3221 "GET / HTTP/1.1" 200 None
+[2023-02-12 22:24:11,299] pyhamilton.interface INFO dummy get request sent to server
+[2023-02-12 22:24:11,299] pyhamilton.interface INFO server thread exited
+[2023-02-12 22:24:11,299] root ERROR Traceback (most recent call last):
+[2023-02-12 22:24:11,299] root ERROR   File "C:\Users\stefa\mpe2_test\robot_method.py", line 25, in <module>
+[2023-02-12 22:24:11,299] root ERROR res = mpe2_connect_ip(ham_int, 'a', '1.1.1.1', simulation_mode = True, options = 0)
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR   File "c:\users\stefa\pyhamilton\pyhamilton\mpe_wrappers.py", line 28, in mpe2_connect_ip
+[2023-02-12 22:24:11,299] root ERROR response = ham.wait_on_response(cmd, raise_first_exception=True, return_data=return_field)
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR ^
+[2023-02-12 22:24:11,299] root ERROR   File "c:\users\stefa\pyhamilton\pyhamilton\interface.py", line 657, in wait_on_response
+[2023-02-12 22:24:11,299] root ERROR return self.parse_response(server_response, raise_first_exception, return_data)
+[2023-02-12 22:24:11,309] root ERROR ^
+[2023-02-12 22:24:11,309] root ERROR ^
+[2023-02-12 22:24:11,309] root ERROR ^
+[2023-02-12 22:24:11,309] root ERROR ^
+[2023-02-12 22:24:11,309] root ERROR ^
+[2023-02-12 22:24:11,309] root ERROR ^
+[2023-02-12 22:24:11,309] root ERROR ^
+[2023-02-12 22:24:11,309] root ERROR ^
+[2023-02-12 22:24:11,309] root ERROR ^
+[2023-02-12 22:24:11,309] root ERROR ^
+[2023-02-12 22:24:11,309] root ERROR ^
+[2023-02-12 22:24:11,309] root ERROR ^
+[2023-02-12 22:24:11,310] root ERROR ^
+[2023-02-12 22:24:11,310] root ERROR ^
+[2023-02-12 22:24:11,310] root ERROR ^
+[2023-02-12 22:24:11,310] root ERROR ^
+[2023-02-12 22:24:11,310] root ERROR ^
+[2023-02-12 22:24:11,310] root ERROR ^
+[2023-02-12 22:24:11,310] root ERROR ^
+[2023-02-12 22:24:11,310] root ERROR ^
+[2023-02-12 22:24:11,310] root ERROR ^
+[2023-02-12 22:24:11,310] root ERROR ^
+[2023-02-12 22:24:11,310] root ERROR ^
+[2023-02-12 22:24:11,310] root ERROR ^
+[2023-02-12 22:24:11,310] root ERROR ^
+[2023-02-12 22:24:11,310] root ERROR ^
+[2023-02-12 22:24:11,310] root ERROR ^
+[2023-02-12 22:24:11,310] root ERROR ^
+[2023-02-12 22:24:11,310] root ERROR ^
+[2023-02-12 22:24:11,310] root ERROR ^
+[2023-02-12 22:24:11,310] root ERROR ^
+[2023-02-12 22:24:11,310] root ERROR ^
+[2023-02-12 22:24:11,310] root ERROR ^
+[2023-02-12 22:24:11,310] root ERROR ^
+[2023-02-12 22:24:11,310] root ERROR ^
+[2023-02-12 22:24:11,310] root ERROR ^
+[2023-02-12 22:24:11,310] root ERROR ^
+[2023-02-12 22:24:11,310] root ERROR ^
+[2023-02-12 22:24:11,310] root ERROR ^
+[2023-02-12 22:24:11,310] root ERROR ^
+[2023-02-12 22:24:11,310] root ERROR ^
+[2023-02-12 22:24:11,310] root ERROR ^
+[2023-02-12 22:24:11,310] root ERROR ^
+[2023-02-12 22:24:11,310] root ERROR ^
+[2023-02-12 22:24:11,310] root ERROR ^
+[2023-02-12 22:24:11,310] root ERROR ^
+[2023-02-12 22:24:11,310] root ERROR ^
+[2023-02-12 22:24:11,310] root ERROR ^
+[2023-02-12 22:24:11,310] root ERROR ^
+[2023-02-12 22:24:11,310] root ERROR ^
+[2023-02-12 22:24:11,310] root ERROR ^
+[2023-02-12 22:24:11,310] root ERROR ^
+[2023-02-12 22:24:11,310] root ERROR ^
+[2023-02-12 22:24:11,310] root ERROR ^
+[2023-02-12 22:24:11,310] root ERROR ^
+[2023-02-12 22:24:11,310] root ERROR ^
+[2023-02-12 22:24:11,310] root ERROR ^
+[2023-02-12 22:24:11,310] root ERROR ^
+[2023-02-12 22:24:11,310] root ERROR ^
+[2023-02-12 22:24:11,310] root ERROR ^
+[2023-02-12 22:24:11,310] root ERROR ^
+[2023-02-12 22:24:11,310] root ERROR ^
+[2023-02-12 22:24:11,312] root ERROR ^
+[2023-02-12 22:24:11,312] root ERROR ^
+[2023-02-12 22:24:11,312] root ERROR ^
+[2023-02-12 22:24:11,313] root ERROR ^
+[2023-02-12 22:24:11,313] root ERROR ^
+[2023-02-12 22:24:11,313] root ERROR ^
+[2023-02-12 22:24:11,313] root ERROR ^
+[2023-02-12 22:24:11,313] root ERROR ^
+[2023-02-12 22:24:11,313] root ERROR ^
+[2023-02-12 22:24:11,313] root ERROR ^
+[2023-02-12 22:24:11,313] root ERROR   File "c:\users\stefa\pyhamilton\pyhamilton\interface.py", line 676, in parse_response
+[2023-02-12 22:24:11,313] root ERROR hamiltonResponse.raise_first_exception()
+[2023-02-12 22:24:11,313] root ERROR   File "c:\users\stefa\pyhamilton\pyhamilton\interface.py", line 400, in raise_first_exception
+[2023-02-12 22:24:11,313] root ERROR raise HamiltonStepError('Hamilton step did not execute correctly; no error code given. ( response: ' + self.raw + ' )')
+[2023-02-12 22:24:11,313] root ERROR pyhamilton.oemerr
+[2023-02-12 22:24:11,313] root ERROR .
+[2023-02-12 22:24:11,313] root ERROR HamiltonStepError
+[2023-02-12 22:24:11,313] root ERROR : 
+[2023-02-12 22:24:11,313] root ERROR Hamilton step did not execute correctly; no error code given. ( response: {"command":"STAR-return","step-name":"MPE2_ConnectIP","step-return2":"","step-return3":"","step-return4":"","id":"0x126cd58f02ad"} )
+[2023-02-12 22:25:16,857] root INFO #######################################################################
+[2023-02-12 22:25:16,858] root INFO #                                                                     #
+[2023-02-12 22:25:16,858] root INFO #     Begin execution of C:\Users\stefa\mpe2_test\robot_method.py     #
+[2023-02-12 22:25:16,858] root INFO #                                                                     #
+[2023-02-12 22:25:16,858] root INFO #######################################################################
+[2023-02-12 22:25:16,858] pyhamilton.interface INFO starting a Hamilton interface
+[2023-02-12 22:25:16,858] pyhamilton.interface INFO started the oem application for simulation
+[2023-02-12 22:25:16,858] pyhamilton.interface INFO started the server thread
+[2023-02-12 22:25:16,859] root INFO initialize: synchronously initialize the robot
+[2023-02-12 22:25:28,877] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:25:28,879] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:25:28,879] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:25:28,879] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:25:28,879] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:25:28,879] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:25:28,879] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:25:28,879] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:25:30,913] pyhamilton.interface INFO sending end run command to simulator
+[2023-02-12 22:25:32,413] pyhamilton.interface ERROR HamiltonTimeoutError('Timed out after 1.5 sec while waiting for response id 0x0')
+[2023-02-12 22:25:32,413] pyhamilton.interface INFO disconnected from server
+[2023-02-12 22:25:32,514] pyhamilton.interface INFO server did not exit yet, sending dummy request to exit its loop
+[2023-02-12 22:25:32,514] urllib3.util.retry DEBUG Converted retries value: 20 -> Retry(total=20, connect=None, read=None, redirect=None, status=None)
+[2023-02-12 22:25:32,517] urllib3.connectionpool DEBUG Starting new HTTP connection (1): 127.0.0.1:3221
+[2023-02-12 22:25:32,519] urllib3.connectionpool DEBUG http://127.0.0.1:3221 "GET / HTTP/1.1" 200 None
+[2023-02-12 22:25:32,519] pyhamilton.interface INFO dummy get request sent to server
+[2023-02-12 22:25:32,519] pyhamilton.interface INFO server thread exited
+[2023-02-12 22:26:47,374] root INFO #######################################################################
+[2023-02-12 22:26:47,375] root INFO #                                                                     #
+[2023-02-12 22:26:47,375] root INFO #     Begin execution of C:\Users\stefa\mpe2_test\robot_method.py     #
+[2023-02-12 22:26:47,375] root INFO #                                                                     #
+[2023-02-12 22:26:47,375] root INFO #######################################################################
+[2023-02-12 22:26:47,376] pyhamilton.interface INFO starting a Hamilton interface
+[2023-02-12 22:26:47,376] pyhamilton.interface INFO started the oem application for simulation
+[2023-02-12 22:26:47,376] pyhamilton.interface INFO started the server thread
+[2023-02-12 22:26:47,376] root INFO initialize: synchronously initialize the robot
+[2023-02-12 22:26:58,381] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:26:58,381] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:26:58,381] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:26:58,381] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:26:58,381] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:26:58,381] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:26:58,381] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:26:58,381] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:27:00,387] pyhamilton.interface INFO sending end run command to simulator
+[2023-02-12 22:27:01,889] pyhamilton.interface ERROR HamiltonTimeoutError('Timed out after 1.5 sec while waiting for response id 0x0')
+[2023-02-12 22:27:01,889] pyhamilton.interface INFO disconnected from server
+[2023-02-12 22:27:01,991] pyhamilton.interface INFO server did not exit yet, sending dummy request to exit its loop
+[2023-02-12 22:27:01,991] urllib3.util.retry DEBUG Converted retries value: 20 -> Retry(total=20, connect=None, read=None, redirect=None, status=None)
+[2023-02-12 22:27:01,997] urllib3.connectionpool DEBUG Starting new HTTP connection (1): 127.0.0.1:3221
+[2023-02-12 22:27:01,999] urllib3.connectionpool DEBUG http://127.0.0.1:3221 "GET / HTTP/1.1" 200 None
+[2023-02-12 22:27:01,999] pyhamilton.interface INFO dummy get request sent to server
+[2023-02-12 22:27:01,999] pyhamilton.interface INFO server thread exited
+[2023-02-12 22:27:33,864] root INFO #######################################################################
+[2023-02-12 22:27:33,864] root INFO #                                                                     #
+[2023-02-12 22:27:33,864] root INFO #     Begin execution of C:\Users\stefa\mpe2_test\robot_method.py     #
+[2023-02-12 22:27:33,864] root INFO #                                                                     #
+[2023-02-12 22:27:33,864] root INFO #######################################################################
+[2023-02-12 22:27:33,864] pyhamilton.interface INFO starting a Hamilton interface
+[2023-02-12 22:27:33,864] pyhamilton.interface INFO started the oem application for simulation
+[2023-02-12 22:27:33,864] pyhamilton.interface INFO started the server thread
+[2023-02-12 22:27:33,865] root INFO initialize: synchronously initialize the robot
+[2023-02-12 22:27:46,871] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:27:46,871] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:27:46,871] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:27:46,871] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:27:46,871] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:27:46,871] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:27:46,871] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:27:46,871] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:27:49,876] pyhamilton.interface INFO sending end run command to simulator
+[2023-02-12 22:27:51,377] pyhamilton.interface ERROR HamiltonTimeoutError('Timed out after 1.5 sec while waiting for response id 0x0')
+[2023-02-12 22:27:51,377] pyhamilton.interface INFO disconnected from server
+[2023-02-12 22:27:51,479] pyhamilton.interface INFO server did not exit yet, sending dummy request to exit its loop
+[2023-02-12 22:27:51,479] urllib3.util.retry DEBUG Converted retries value: 20 -> Retry(total=20, connect=None, read=None, redirect=None, status=None)
+[2023-02-12 22:27:51,483] urllib3.connectionpool DEBUG Starting new HTTP connection (1): 127.0.0.1:3221
+[2023-02-12 22:27:51,483] urllib3.connectionpool DEBUG http://127.0.0.1:3221 "GET / HTTP/1.1" 200 None
+[2023-02-12 22:27:51,483] pyhamilton.interface INFO dummy get request sent to server
+[2023-02-12 22:27:51,483] pyhamilton.interface INFO server thread exited
+[2023-02-12 22:28:31,134] root INFO #######################################################################
+[2023-02-12 22:28:31,134] root INFO #                                                                     #
+[2023-02-12 22:28:31,134] root INFO #     Begin execution of C:\Users\stefa\mpe2_test\robot_method.py     #
+[2023-02-12 22:28:31,134] root INFO #                                                                     #
+[2023-02-12 22:28:31,134] root INFO #######################################################################
+[2023-02-12 22:28:31,134] pyhamilton.interface INFO starting a Hamilton interface
+[2023-02-12 22:28:31,134] pyhamilton.interface INFO started the oem application for simulation
+[2023-02-12 22:28:31,134] pyhamilton.interface INFO started the server thread
+[2023-02-12 22:28:31,134] root INFO initialize: synchronously initialize the robot
+[2023-02-12 22:28:42,140] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:28:42,140] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:28:42,140] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:28:42,140] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:28:42,140] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:28:42,140] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:28:42,140] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:28:42,140] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:28:43,143] pyhamilton.interface INFO sending end run command to simulator
+[2023-02-12 22:28:44,644] pyhamilton.interface ERROR HamiltonTimeoutError('Timed out after 1.5 sec while waiting for response id 0x0')
+[2023-02-12 22:28:44,644] pyhamilton.interface INFO disconnected from server
+[2023-02-12 22:28:44,744] pyhamilton.interface INFO server did not exit yet, sending dummy request to exit its loop
+[2023-02-12 22:28:44,744] urllib3.util.retry DEBUG Converted retries value: 20 -> Retry(total=20, connect=None, read=None, redirect=None, status=None)
+[2023-02-12 22:28:44,748] urllib3.connectionpool DEBUG Starting new HTTP connection (1): 127.0.0.1:3221
+[2023-02-12 22:28:44,748] urllib3.connectionpool DEBUG http://127.0.0.1:3221 "GET / HTTP/1.1" 200 None
+[2023-02-12 22:28:44,748] pyhamilton.interface INFO dummy get request sent to server
+[2023-02-12 22:28:44,748] pyhamilton.interface INFO server thread exited
+[2023-02-12 22:28:44,748] root ERROR Traceback (most recent call last):
+[2023-02-12 22:28:44,748] root ERROR   File "C:\Users\stefa\mpe2_test\robot_method.py", line 26, in <module>
+[2023-02-12 22:28:44,748] root ERROR mpe2_id = int(mpe2_id)
+[2023-02-12 22:28:44,748] root ERROR ^
+[2023-02-12 22:28:44,748] root ERROR ^
+[2023-02-12 22:28:44,748] root ERROR ^
+[2023-02-12 22:28:44,748] root ERROR ^
+[2023-02-12 22:28:44,748] root ERROR ^
+[2023-02-12 22:28:44,748] root ERROR ^
+[2023-02-12 22:28:44,748] root ERROR ^
+[2023-02-12 22:28:44,748] root ERROR ^
+[2023-02-12 22:28:44,748] root ERROR ^
+[2023-02-12 22:28:44,748] root ERROR ^
+[2023-02-12 22:28:44,748] root ERROR ^
+[2023-02-12 22:28:44,748] root ERROR ^
+[2023-02-12 22:28:44,748] root ERROR TypeError
+[2023-02-12 22:28:44,748] root ERROR : 
+[2023-02-12 22:28:44,748] root ERROR int() argument must be a string, a bytes-like object or a real number, not 'HamiltonResponse'
+[2023-02-12 22:30:01,480] root INFO #######################################################################
+[2023-02-12 22:30:01,480] root INFO #                                                                     #
+[2023-02-12 22:30:01,480] root INFO #     Begin execution of C:\Users\stefa\mpe2_test\robot_method.py     #
+[2023-02-12 22:30:01,481] root INFO #                                                                     #
+[2023-02-12 22:30:01,481] root INFO #######################################################################
+[2023-02-12 22:30:01,481] pyhamilton.interface INFO starting a Hamilton interface
+[2023-02-12 22:30:01,481] pyhamilton.interface INFO started the oem application for simulation
+[2023-02-12 22:30:01,481] pyhamilton.interface INFO started the server thread
+[2023-02-12 22:30:01,481] root INFO initialize: synchronously initialize the robot
+[2023-02-12 22:30:12,489] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:30:12,490] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:30:12,490] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:30:12,490] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:30:12,490] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:30:12,490] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:30:12,490] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:30:12,490] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:30:14,493] pyhamilton.interface INFO sending end run command to simulator
+[2023-02-12 22:30:15,994] pyhamilton.interface ERROR HamiltonTimeoutError('Timed out after 1.5 sec while waiting for response id 0x0')
+[2023-02-12 22:30:15,994] pyhamilton.interface INFO disconnected from server
+[2023-02-12 22:30:16,095] pyhamilton.interface INFO server did not exit yet, sending dummy request to exit its loop
+[2023-02-12 22:30:16,095] urllib3.util.retry DEBUG Converted retries value: 20 -> Retry(total=20, connect=None, read=None, redirect=None, status=None)
+[2023-02-12 22:30:16,099] urllib3.connectionpool DEBUG Starting new HTTP connection (1): 127.0.0.1:3221
+[2023-02-12 22:30:16,099] urllib3.connectionpool DEBUG http://127.0.0.1:3221 "GET / HTTP/1.1" 200 None
+[2023-02-12 22:30:16,099] pyhamilton.interface INFO dummy get request sent to server
+[2023-02-12 22:30:16,099] pyhamilton.interface INFO server thread exited
+[2023-02-12 22:32:03,809] root INFO #######################################################################
+[2023-02-12 22:32:03,809] root INFO #                                                                     #
+[2023-02-12 22:32:03,809] root INFO #     Begin execution of C:\Users\stefa\mpe2_test\robot_method.py     #
+[2023-02-12 22:32:03,809] root INFO #                                                                     #
+[2023-02-12 22:32:03,810] root INFO #######################################################################
+[2023-02-12 22:32:03,810] pyhamilton.interface INFO starting a Hamilton interface
+[2023-02-12 22:32:03,810] pyhamilton.interface INFO started the oem application for simulation
+[2023-02-12 22:32:03,810] pyhamilton.interface INFO started the server thread
+[2023-02-12 22:32:03,810] root INFO initialize: synchronously initialize the robot
+[2023-02-12 22:32:15,817] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:32:15,819] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:32:15,819] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:32:15,819] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:32:15,819] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:32:15,819] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:32:15,819] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:32:15,819] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:32:17,822] pyhamilton.interface INFO sending end run command to simulator
+[2023-02-12 22:32:19,323] pyhamilton.interface ERROR HamiltonTimeoutError('Timed out after 1.5 sec while waiting for response id 0x0')
+[2023-02-12 22:32:19,323] pyhamilton.interface INFO disconnected from server
+[2023-02-12 22:32:19,424] pyhamilton.interface INFO server did not exit yet, sending dummy request to exit its loop
+[2023-02-12 22:32:19,424] urllib3.util.retry DEBUG Converted retries value: 20 -> Retry(total=20, connect=None, read=None, redirect=None, status=None)
+[2023-02-12 22:32:19,428] urllib3.connectionpool DEBUG Starting new HTTP connection (1): 127.0.0.1:3221
+[2023-02-12 22:32:19,428] urllib3.connectionpool DEBUG http://127.0.0.1:3221 "GET / HTTP/1.1" 200 None
+[2023-02-12 22:32:19,428] pyhamilton.interface INFO dummy get request sent to server
+[2023-02-12 22:32:19,428] pyhamilton.interface INFO server thread exited
+[2023-02-12 22:33:05,473] root INFO #######################################################################
+[2023-02-12 22:33:05,473] root INFO #                                                                     #
+[2023-02-12 22:33:05,473] root INFO #     Begin execution of C:\Users\stefa\mpe2_test\robot_method.py     #
+[2023-02-12 22:33:05,473] root INFO #                                                                     #
+[2023-02-12 22:33:05,473] root INFO #######################################################################
+[2023-02-12 22:33:05,474] pyhamilton.interface INFO starting a Hamilton interface
+[2023-02-12 22:33:05,474] pyhamilton.interface INFO started the oem application for simulation
+[2023-02-12 22:33:05,474] pyhamilton.interface INFO started the server thread
+[2023-02-12 22:33:05,474] root INFO initialize: synchronously initialize the robot
+[2023-02-12 22:33:17,480] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:33:17,480] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:33:17,480] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:33:17,480] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:33:17,480] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:33:17,480] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:33:17,480] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:33:17,480] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:33:20,485] pyhamilton.interface INFO sending end run command to simulator
+[2023-02-12 22:33:21,985] pyhamilton.interface ERROR HamiltonTimeoutError('Timed out after 1.5 sec while waiting for response id 0x0')
+[2023-02-12 22:33:21,985] pyhamilton.interface INFO disconnected from server
+[2023-02-12 22:33:22,086] pyhamilton.interface INFO server did not exit yet, sending dummy request to exit its loop
+[2023-02-12 22:33:22,086] urllib3.util.retry DEBUG Converted retries value: 20 -> Retry(total=20, connect=None, read=None, redirect=None, status=None)
+[2023-02-12 22:33:22,088] urllib3.connectionpool DEBUG Starting new HTTP connection (1): 127.0.0.1:3221
+[2023-02-12 22:33:22,088] urllib3.connectionpool DEBUG http://127.0.0.1:3221 "GET / HTTP/1.1" 200 None
+[2023-02-12 22:33:22,088] pyhamilton.interface INFO dummy get request sent to server
+[2023-02-12 22:33:22,088] pyhamilton.interface INFO server thread exited
+[2023-02-12 22:34:53,222] root INFO #######################################################################
+[2023-02-12 22:34:53,222] root INFO #                                                                     #
+[2023-02-12 22:34:53,222] root INFO #     Begin execution of C:\Users\stefa\mpe2_test\robot_method.py     #
+[2023-02-12 22:34:53,222] root INFO #                                                                     #
+[2023-02-12 22:34:53,222] root INFO #######################################################################
+[2023-02-12 22:34:53,223] pyhamilton.interface INFO starting a Hamilton interface
+[2023-02-12 22:34:53,223] pyhamilton.interface INFO started the oem application for simulation
+[2023-02-12 22:34:53,223] pyhamilton.interface INFO started the server thread
+[2023-02-12 22:34:53,223] root INFO initialize: synchronously initialize the robot
+[2023-02-12 22:35:14,236] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:35:14,240] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:35:14,240] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:35:14,240] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:35:14,240] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:35:14,240] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:35:14,240] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:35:14,240] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:35:18,245] pyhamilton.interface INFO sending end run command to simulator
+[2023-02-12 22:35:19,745] pyhamilton.interface ERROR HamiltonTimeoutError('Timed out after 1.5 sec while waiting for response id 0x0')
+[2023-02-12 22:35:19,745] pyhamilton.interface INFO disconnected from server
+[2023-02-12 22:35:19,846] pyhamilton.interface INFO server did not exit yet, sending dummy request to exit its loop
+[2023-02-12 22:35:19,846] urllib3.util.retry DEBUG Converted retries value: 20 -> Retry(total=20, connect=None, read=None, redirect=None, status=None)
+[2023-02-12 22:35:19,850] urllib3.connectionpool DEBUG Starting new HTTP connection (1): 127.0.0.1:3221
+[2023-02-12 22:35:19,850] urllib3.connectionpool DEBUG http://127.0.0.1:3221 "GET / HTTP/1.1" 200 None
+[2023-02-12 22:35:19,850] pyhamilton.interface INFO dummy get request sent to server
+[2023-02-12 22:35:19,850] pyhamilton.interface INFO server thread exited
+[2023-02-12 22:36:43,227] root INFO #######################################################################
+[2023-02-12 22:36:43,227] root INFO #                                                                     #
+[2023-02-12 22:36:43,227] root INFO #     Begin execution of C:\Users\stefa\mpe2_test\robot_method.py     #
+[2023-02-12 22:36:43,227] root INFO #                                                                     #
+[2023-02-12 22:36:43,228] root INFO #######################################################################
+[2023-02-12 22:36:43,228] pyhamilton.interface INFO starting a Hamilton interface
+[2023-02-12 22:36:43,228] pyhamilton.interface INFO started the oem application for simulation
+[2023-02-12 22:36:43,228] pyhamilton.interface INFO started the server thread
+[2023-02-12 22:36:43,228] root INFO initialize: synchronously initialize the robot
+[2023-02-12 22:36:56,236] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:36:56,238] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:36:56,238] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:36:56,238] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:36:56,238] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:36:56,238] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:36:56,238] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:36:56,238] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:36:59,242] pyhamilton.interface INFO sending end run command to simulator
+[2023-02-12 22:37:00,742] pyhamilton.interface ERROR HamiltonTimeoutError('Timed out after 1.5 sec while waiting for response id 0x0')
+[2023-02-12 22:37:00,742] pyhamilton.interface INFO disconnected from server
+[2023-02-12 22:37:00,843] pyhamilton.interface INFO server did not exit yet, sending dummy request to exit its loop
+[2023-02-12 22:37:00,843] urllib3.util.retry DEBUG Converted retries value: 20 -> Retry(total=20, connect=None, read=None, redirect=None, status=None)
+[2023-02-12 22:37:00,849] urllib3.connectionpool DEBUG Starting new HTTP connection (1): 127.0.0.1:3221
+[2023-02-12 22:37:00,849] urllib3.connectionpool DEBUG http://127.0.0.1:3221 "GET / HTTP/1.1" 200 None
+[2023-02-12 22:37:00,849] pyhamilton.interface INFO dummy get request sent to server
+[2023-02-12 22:37:00,849] pyhamilton.interface INFO server thread exited
+[2023-02-12 22:38:03,042] root INFO #######################################################################
+[2023-02-12 22:38:03,042] root INFO #                                                                     #
+[2023-02-12 22:38:03,043] root INFO #     Begin execution of C:\Users\stefa\mpe2_test\robot_method.py     #
+[2023-02-12 22:38:03,043] root INFO #                                                                     #
+[2023-02-12 22:38:03,043] root INFO #######################################################################
+[2023-02-12 22:38:03,043] pyhamilton.interface INFO starting a Hamilton interface
+[2023-02-12 22:38:03,043] pyhamilton.interface INFO started the oem application for simulation
+[2023-02-12 22:38:03,043] pyhamilton.interface INFO started the server thread
+[2023-02-12 22:38:03,043] root INFO initialize: synchronously initialize the robot
+[2023-02-12 22:38:13,050] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:38:13,050] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:38:13,050] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:38:13,050] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:38:13,050] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:38:13,050] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:38:13,050] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:38:13,050] parse DEBUG format '{numField:d},{mainErrField:d},{slaveErr:d},{recoveryBtnId:d},{stepData},{labwareName:w},{labwarePos}' -> '(?P<numField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<mainErrField>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<slaveErr>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<recoveryBtnId>[-+ ]?\\d+|[-+ ]?0[xX][0-9a-fA-F]+|[-+ ]?0[bB][01]+|[-+ ]?0[oO][0-7]+),(?P<stepData>.+?),(?P<labwareName>\\w+),(?P<labwarePos>.+?)'
+[2023-02-12 22:38:15,057] pyhamilton.interface INFO sending end run command to simulator
+[2023-02-12 22:38:16,558] pyhamilton.interface ERROR HamiltonTimeoutError('Timed out after 1.5 sec while waiting for response id 0x0')
+[2023-02-12 22:38:16,558] pyhamilton.interface INFO disconnected from server
+[2023-02-12 22:38:16,660] pyhamilton.interface INFO server did not exit yet, sending dummy request to exit its loop
+[2023-02-12 22:38:16,660] urllib3.util.retry DEBUG Converted retries value: 20 -> Retry(total=20, connect=None, read=None, redirect=None, status=None)
+[2023-02-12 22:38:16,668] urllib3.connectionpool DEBUG Starting new HTTP connection (1): 127.0.0.1:3221
+[2023-02-12 22:38:16,669] urllib3.connectionpool DEBUG http://127.0.0.1:3221 "GET / HTTP/1.1" 200 None
+[2023-02-12 22:38:16,669] pyhamilton.interface INFO dummy get request sent to server
+[2023-02-12 22:38:16,669] pyhamilton.interface INFO server thread exited
